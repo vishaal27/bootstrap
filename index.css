@@ -1,0 +1,115 @@
+body{
+	position: relative;
+}
+
+.affix{
+	width:100%;
+	z-index: 9999;
+	top: 0;
+}
+
+.navbar{
+	margin-bottom: -30px;
+}
+
+.affix ~ .container-fluid{
+	position: relative;
+	top:50px;
+}
+
+#home{
+	background-color: #e05038;
+	color:#ffffff;
+	padding-top: 50px;
+	height: 950px;
+	margin-top: -20px;
+}
+
+#portfolio{
+	background-color:#e6af4b;
+	color:#ffffff;
+	padding-top: 50px;
+	height:750px;
+}
+
+#about{
+	background-color:#6c648b;
+	color:#ffffff;
+	padding-top: 50px;
+	height: 750px;
+}
+
+#blog{
+	background-color: #b6a19e;
+	color:#ffffff;
+	padding-top: 50px;
+	height: 750px;
+}
+
+#intro{
+	height:350px;
+	background-color:#192231;
+	color: #ffffff;
+	font-family: 'Harmattan', sans-serif;
+	font-size: 35px;
+}
+
+#contact{
+	height:70px;
+	background-color: #192231;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+}
+
+#title-photo{
+	height:150px;
+	width:170px;
+	border-radius: 50%;
+	border: 3px solid #ffffff;
+	margin-top: 25px;
+}
+
+.person {
+    border: 5px solid transparent;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.fa-facebook:hover{
+	color:black;
+}
+
+.fa-instagram:hover{
+	color:black;
+}
+
+.fa-linkedin:hover{
+	color:black;
+}
+
+.fa-google-plus:hover{
+	color:black;
+}
+
+.fa-quora:hover{
+	color:black;
+}
+
+.fa-quora:hover{
+	color:black;
+}
+
+#mail:hover{
+	color:black;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+
